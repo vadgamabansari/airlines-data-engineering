@@ -1,0 +1,6 @@
+apache-airflow-providers-postgres
+cassandra-driver
+confluent-kafka
+mysql-connector-python
+pandas
+python-dotenv

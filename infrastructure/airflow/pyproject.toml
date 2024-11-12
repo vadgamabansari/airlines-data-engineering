@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "airflow"
+version = "0.1.0"
+description = "Poetry for Apache Airflow docker image"
+authors = ["Bansari Vadgama <bansari.vadgama@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+apache-airflow-providers-postgres = "^5.13.0"
+cassandra-driver = "^3.29.2"
+confluent-kafka = "^2.5.3"
+kafka-python = "^2.0.2"
+mysql-connector-python = "^9.0.0"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
